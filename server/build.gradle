@@ -12,7 +12,7 @@ task run(dependsOn: classes, type: JavaExec) {
 }
 
 task createSarin_v(type: Jar) {
-    from files(sourceSets.main.output.classesDir)
+    from files(sourceSets.main.output.classesDirs)
     from files(sourceSets.main.output.resourcesDir)
     from {configurations.compile.collect {zipTree(it)}}
 
@@ -22,11 +22,11 @@ task createSarin_v(type: Jar) {
 }
 
 dependencies {
-    compile project(path: ':core')
+    project(':core')
 }
 
 eclipse.project {
-    name = appName + "-serCS"
+    name = appName + "-serverTanks"
 }
 
 sourceCompatibility = "1.8"
