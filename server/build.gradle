@@ -1,4 +1,5 @@
 apply plugin: 'java'
+
 sourceCompatibility = 1.6
 [compileJava, compileTestJava]*.options*.encoding = 'UTF-8'
 sourceSets.main.java.srcDirs = [ "src/" ]
@@ -14,6 +15,7 @@ task run(dependsOn: classes, type: JavaExec) {
 task createSarin_v(type: Jar) {
     from files(sourceSets.main.output.classesDirs)
     from files(sourceSets.main.output.resourcesDir)
+
     from {configurations.compile.collect {zipTree(it)}}
 
     manifest {
@@ -22,12 +24,13 @@ task createSarin_v(type: Jar) {
 }
 
 dependencies {
-    project(':core')
+    implementation project(":core")
+
 }
 
-eclipse.project {
-    name = appName + "-serverTanks"
-}
+//eclipse.project {
+//    name = appName + "-serverTanks"
+//}
 
 sourceCompatibility = "1.8"
 targetCompatibility = "1.8"

@@ -1,1 +1,1 @@
-include ':server'
+include 'desktop', 'android', 'ios', 'core' , 'server'

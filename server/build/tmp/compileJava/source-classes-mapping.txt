@@ -1,0 +1,62 @@
+com/RatingSystem/Personality.java
+ com.RatingSystem.Personality
+com/Bot/SimulationUnit.java
+ com.Bot.SimulationUnit
+com/SteckApi/CalculationСontact.java
+ com.SteckApi.CalculationСontact
+com/Network.java
+ com.Network
+ com.Network$Answer
+ com.Network$PleyerPosition
+ com.Network$PleyerPositionNom
+ com.Network$StockMess
+ com.Network$rc
+com/StaticService.java
+ com.StaticService
+com/ServerLauncher.java
+ com.ServerLauncher
+ com.ServerLauncher$1
+com/SteckApi/RequestStockServer.java
+ com.SteckApi.RequestStockServer
+com/Bot/Map/IndexMap.java
+ com.Bot.Map.IndexMap
+com/RatingSystem/Index.java
+ com.RatingSystem.Index
+ com.RatingSystem.Index$1
+com/GameServer.java
+ com.GameServer
+ com.GameServer$1
+com/SteckApi/RouteResponseRequests.java
+ com.SteckApi.RouteResponseRequests
+ com.SteckApi.RouteResponseRequests$1
+ com.SteckApi.RouteResponseRequests$2
+ com.SteckApi.RouteResponseRequests$3
+com/SteckApi/StockRequestService.java
+ com.SteckApi.StockRequestService
+com/Bot/LogicBot.java
+ com.Bot.LogicBot
+com/FileLog.java
+ com.FileLog
+com/RatingSystem/FileReaderWriter.java
+ com.RatingSystem.FileReaderWriter
+com/logicMatch/IndexMatch.java
+ com.logicMatch.IndexMatch
+com/SteckApi/ProcessingOutputQueue.java
+ com.SteckApi.ProcessingOutputQueue
+com/Bot/Map/Obstacles/CircleObject.java
+ com.Bot.Map.Obstacles.CircleObject
+com/logicMatch/ScoreGame.java
+ com.logicMatch.ScoreGame
+ com.logicMatch.raitingTemp
+com/SteckApi/StockBase.java
+ com.SteckApi.StockBase
+com/Bot/IndexBot.java
+ com.Bot.IndexBot
+com/logicMatch/CommandLogic.java
+ com.logicMatch.CommandLogic
+com/SnapShots.java
+ com.SnapShots
+ com.SnapShots$SnapShot
+ com.SnapShots$player
+com/Bot/Map/Obstacles/BoxObject.java
+ com.Bot.Map.Obstacles.BoxObject

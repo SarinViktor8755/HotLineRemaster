@@ -101,12 +101,25 @@ project(":ios") {
 
 project(":core") {
     apply plugin: "java-library"
+
+    allprojects {
+        repositories {
+            jcenter()
+            maven { url "https://maven.google.com" }
+            // или google() для Android Studio 3.x
+        }
+    }
+
+
     dependencies {
         api "com.badlogicgames.gdx:gdx:$gdxVersion"
         api "com.badlogicgames.gdx:gdx-box2d:$gdxVersion"
         api "com.badlogicgames.gdx:gdx-freetype:$gdxVersion"
         api "com.badlogicgames.box2dlights:box2dlights:$box2DLightsVersion"
         api "com.esotericsoftware:kryonet:2.22.0-RC1"
+        api 'com.google.android.gms:play-services-ads:15.0.0'
+
+
         
     }
 }
